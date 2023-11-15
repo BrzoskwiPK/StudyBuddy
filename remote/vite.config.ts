@@ -7,10 +7,10 @@ export default defineConfig({
   plugins: [
     vue(),
     federation({
-      name: 'remote',
+      name: 'remote-app',
       filename: 'remoteEntry.js',
       exposes: {
-        './HelloWorld': './src/components/HelloWorld.vue',
+        './Button.vue': './src/Button.vue',
       },
       shared: ['vue'],
     }),
