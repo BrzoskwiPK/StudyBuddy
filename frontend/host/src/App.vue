@@ -4,8 +4,9 @@ import Button from 'remote_app/Button.vue'
 
 <template>
   <div>
+    lux
     <Button />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss"></style>
