@@ -1,5 +1,5 @@
-import { createApp } from "vue";
-import "./style.css";
-import Sidebar from "./Sidebar.vue";
+import { createApp } from 'vue';
+import './style.css';
+import Sidebar from './Sidebar.vue';
 
-createApp(Sidebar).mount("#sidebar");
+createApp(Sidebar).mount('#sidebar');

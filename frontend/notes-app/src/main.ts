@@ -1,5 +1,5 @@
-import { createApp } from "vue";
-import "./style.css";
-import Notes from "./Notes.vue";
+import { createApp } from 'vue';
+import './style.css';
+import Notes from './Notes.vue';
 
-createApp(Notes).mount("#notes");
+createApp(Notes).mount('#notes');

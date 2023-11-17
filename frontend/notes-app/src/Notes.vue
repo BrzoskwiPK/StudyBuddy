@@ -10,7 +10,6 @@
 <style scoped lang="scss">
 .notes {
   &__container {
-    background: #ccc;
     height: 100vh;
     display: flex;
     justify-content: center;

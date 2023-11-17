@@ -10,12 +10,19 @@ import NotesApp from 'notes_app/Notes.vue'
   </div>
 </template>
 
+<!-- <style lang="scss">
+
+</style> -->
+
 <style scoped lang="scss">
 .app {
   &__container {
     display: flex;
+    width: 100vw;
+    background: #eee;
 
     .sidebar__container {
+      min-width: 170px;
       width: 15vw;
       height: 100vh;
     }
