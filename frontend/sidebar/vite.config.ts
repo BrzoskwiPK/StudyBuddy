@@ -7,9 +7,10 @@ export default defineConfig({
   plugins: [
     vue(),
     federation({
-      name: "host-app",
-      remotes: {
-        sidebar_app: "http://localhost:5001/assets/sidebarEntry.js",
+      name: "sidebar-app",
+      filename: "sidebarEntry.js",
+      exposes: {
+        "./Button.vue": "./src/Button.vue",
       },
       shared: ["vue"],
     }),
