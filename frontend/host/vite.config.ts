@@ -10,6 +10,7 @@ export default defineConfig({
       name: "host-app",
       remotes: {
         sidebar_app: "http://localhost:5001/assets/sidebarEntry.js",
+        notes_app: "http://localhost:5002/assets/notesEntry.js",
       },
       shared: ["vue"],
     }),

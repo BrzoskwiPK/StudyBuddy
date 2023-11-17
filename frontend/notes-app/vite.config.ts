@@ -7,10 +7,10 @@ export default defineConfig({
   plugins: [
     vue(),
     federation({
-      name: "sidebar-app",
-      filename: "sidebarEntry.js",
+      name: "notes-app",
+      filename: "notesEntry.js",
       exposes: {
-        "./Sidebar.vue": "./src/Sidebar.vue",
+        "./Notes.vue": "./src/Notes.vue",
       },
       shared: ["vue"],
     }),
