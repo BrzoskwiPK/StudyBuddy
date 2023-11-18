@@ -1,18 +1,13 @@
 <script setup lang="ts">
 import Sidebar from 'sidebar_app/Sidebar.vue'
-import NotesApp from 'notes_app/Notes.vue'
 </script>
 
 <template>
   <div className="app__container">
     <Sidebar />
-    <NotesApp></NotesApp>
+    <router-view></router-view>
   </div>
 </template>
-
-<!-- <style lang="scss">
-
-</style> -->
 
 <style scoped lang="scss">
 .app {
