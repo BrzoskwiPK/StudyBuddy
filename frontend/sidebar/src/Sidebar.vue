@@ -43,8 +43,7 @@ const links: Link[] = [{
 
   &__links {
     &_wrapper {
-      padding-left: .5rem;
-      padding-right: .5rem;
+      padding: 0 .8rem;
       width: 100%;
     }
   }

@@ -22,7 +22,7 @@ const props = defineProps<SidebarSectionProps>();
       align-items: center;
       width: 100%;
       border-top: 1px solid rgb(209, 213, 219);
-      margin-top: .75rem;
+      margin-top: 1.2rem;
       color: rgb(55, 65, 81);
     }
   }

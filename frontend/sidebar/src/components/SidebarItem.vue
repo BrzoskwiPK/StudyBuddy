@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps, toRefs, computed, watch } from 'vue';
+import { defineProps, toRefs, computed } from 'vue';
 import HomeIcon from '../assets/icons/HomeIcon.vue';
 import NotesIcon from '../assets/icons/NotesIcon.vue';
 import CoursesIcon from '../assets/icons/CoursesIcon.vue';
@@ -36,29 +36,33 @@ const iconComponent = computed(() => {
       display: flex;
       align-items: center;
       width: 100%;
-      height: 3rem;
-      margin-top: .5rem;
-      padding-left: .75rem;
-      padding-right: .75rem;
-      border-radius: 5px;
+      height: 3.5em;
+      font-size: 1.4rem;
+      line-height: 2rem;
+      margin-top: 0.7em;
+      padding: 0 0.6em;
+      border-radius: 0.5rem;
       color: inherit;
       text-decoration: none;
       cursor: pointer;
+      transition: .1s;
 
       &:hover {
-        background-color: rgb(209, 213, 219)
+        background-color: #eee
+      }
+
+      &.router-link-active {
+        background-color: #ddd
       }
 
       svg {
-        width: 1.5rem;
+        width: 2.4rem;
         stroke: currentColor
       }
 
       &_text {
         font-weight: 500;
-        font-size: .875rem;
-        line-height: 1.25rem;
-        margin-left: .5rem;
+        margin-left: .8rem;
         text-transform: capitalize;
       }
     }

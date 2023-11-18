@@ -17,7 +17,7 @@ import Sidebar from 'sidebar_app/Sidebar.vue'
     background: #eee;
 
     .sidebar__container {
-      min-width: 170px;
+      min-width: 17rem;
       width: 15vw;
       height: 100vh;
     }

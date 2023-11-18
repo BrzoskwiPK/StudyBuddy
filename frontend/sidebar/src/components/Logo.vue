@@ -15,23 +15,22 @@
 .logo {
   display: flex;
   align-items: center;
-  margin-top: .75rem;
-  padding-left: .75rem;
-  padding-right: .75rem;
   width: 100%;
+  margin-top: 1.2rem;
+  padding: 0 0.85em;
+  font-size: 1.4rem;
+  line-height: 2rem;
   color: inherit;
   text-decoration: none;
 
   svg {
     fill: $main-color;
-    width: 2rem;
+    width: 3.2rem;
   }
 
   &_text {
     font-weight: 700;
-    font-size: .875rem;
-    line-height: 1.25rem;
-    margin-left: .5rem;
+    margin-left: .8rem;
   }
 }
 </style>

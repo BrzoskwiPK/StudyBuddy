@@ -17,7 +17,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 4rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    height: 6.4rem;
     width: 100%;
     margin-top: auto;
     background-color: $main-color;
@@ -29,17 +31,13 @@
     }
 
     svg {
-      display: block;
-      height: 1.5rem;
       stroke: currentColor;
-      width: 1.5rem;
+      width: 2rem;
     }
 
     &_text {
       font-weight: 500;
-      font-size: .875rem;
-      line-height: 1.25rem;
-      margin-left: .5rem;
+      margin-left: .8rem;
     }
   }
 }
